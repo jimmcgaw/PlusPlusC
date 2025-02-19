@@ -1,11 +1,12 @@
 
 clean:
-	rm -rf build/CMakeFiles && rm -f build/CMakeCache.txt && rm -f build/PlusPlusC
+	rm -rf build/ && mkdir -p build/
 
-billed: clean
+compile: clean
 	cmake -B build -S .
+	cmake --build build
 
-go: billed
+go: compile
 	cd build/ && make
 
 run:
