@@ -1,4 +1,4 @@
-# C++ Project Configurationo
+# C++ Project Configuration
 
 Despite the name of this repo, I'm currently using this project to learn the <a href="https://cmake.org/" target="_blank">CMake build system</a>.
 
